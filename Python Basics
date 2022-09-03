@@ -1,0 +1,276 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMbWcT8cifcBrZoRhN5JaWl",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MohamedIrfanT/hello-world/blob/main/Python%20Basics\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gaWn7cfMiyuN",
+        "outputId": "68858c4d-dabc-4abf-dbb6-6fa5a2b8dbb1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name: Irfan\n",
+            "Enter your address: 1, Ragamaliga St, Vallalar Nagar, Villupuram - 605602\n",
+            "\n",
+            "Your name:  Irfan\n",
+            "Your address:  1, Ragamaliga St, Vallalar Nagar, Villupuram - 605602\n"
+          ]
+        }
+      ],
+      "source": [
+        "name=input(\"Enter your name: \")\n",
+        "address=input(\"Enter your address: \")\n",
+        "print(\"\\nYour name: \",name)\n",
+        "print(\"Your address: \",address)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input(\"Enter your oor: \")\n",
+        "print(\"Vanakkam da mapla\",a,\"la irundhu..!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "e5cxgknnjqyX",
+        "outputId": "c923442d-a3f4-4523-bb92-356303ba6226"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your oor: Villupuram\n",
+            "Vanakkam da mapla Villupuram la irundhu..!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter a number: \"))\n",
+        "b=int(input(\"Enter another number: \"))\n",
+        "print(\"\\nArithmetic Operations:\")\n",
+        "print(\"\\nSum:\",a+b)\n",
+        "print(\"Difference:\",a-b)\n",
+        "print(\"Product:\",a*b)\n",
+        "print(\"Quotient:\",a/b)\n",
+        "print(\"Floor Quotient:\",a//b)\n",
+        "print(\"Modulo:\",a%b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SANKGRPNkPRT",
+        "outputId": "3310ccb8-09a2-4487-9154-4dd71112781b"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 3\n",
+            "Enter another number: 2\n",
+            "\n",
+            "Arithmetic Operations:\n",
+            "\n",
+            "Sum: 5\n",
+            "Difference: 1\n",
+            "Product: 6\n",
+            "Quotient: 1.5\n",
+            "Floor Quotient: 1\n",
+            "Modulo: 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "marks=int(input(\"Enter your marks: \"))\n",
+        "if(marks>30):\n",
+        "  print(\"Pass\")\n",
+        "else:\n",
+        "  print(\"Fail\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BfW-l4h4ldLF",
+        "outputId": "3b245e23-ae1a-4a20-9ac0-83353c0948c4"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your marks: 51\n",
+            "Pass\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age=int(input(\"Enter your age: \"))\n",
+        "if(age>=18):\n",
+        "  print(\"You're a major!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f7co9mitl16x",
+        "outputId": "421c694a-6dd5-4f2f-ca8c-76089930d005"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your age: 38\n",
+            "You're a major!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter a number: \"))\n",
+        "if(a>0):\n",
+        "  print(\"a is positive\")\n",
+        "elif(a<0):\n",
+        "  print(\"a is negative\")\n",
+        "else:\n",
+        "  print(\"a is 0\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Pd0D7pnSmWmd",
+        "outputId": "da22b7a8-801c-473e-d9ac-7c727785a027"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: -4\n",
+            "a is negative\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter a: \"))\n",
+        "b=int(input(\"Enter b: \"))\n",
+        "c=int(input(\"Enter c: \"))\n",
+        "if(a>b and a>c):\n",
+        "  print(\"\\na is bigger\")\n",
+        "elif(b>a and b>c):\n",
+        "  print(\"\\nb is bigger\")\n",
+        "else:\n",
+        "  print(\"\\nc is bigger\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X2IrJhbqm5Uj",
+        "outputId": "5e2a710d-52fb-4309-f352-1110bec7f19c"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a: 948\n",
+            "Enter b: 762\n",
+            "Enter c: 1024\n",
+            "\n",
+            "c is bigger\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"Enter a positive number: \"))\n",
+        "if(a>0):\n",
+        "  if(a>100):\n",
+        "    print(\"a is big\")\n",
+        "  else:\n",
+        "    print(\"a is small\")\n",
+        "else:\n",
+        "  print(\"Please enter a negative number\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-bda0yCDnjcx",
+        "outputId": "b9f2c799-82da-4346-9443-349a289febc7"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a positive number: 5\n",
+            "a is small\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
